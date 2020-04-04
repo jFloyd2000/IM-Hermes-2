@@ -8,6 +8,14 @@
 
 import SwiftUI
 
+/*
+ * MessageThread
+ *
+ * Shows all of the mesages in a paticular thread
+ *
+ * if it is collaped it only shows thread name and user profile pics
+ */
+
 struct MessageThred: View {
     
     let otherUsers:[User]

@@ -8,6 +8,12 @@
 
 import Foundation
 
+/*
+ * Constants
+ *
+ * all of the constant strings used for acessing images colors ect
+ */
+
 struct Constants {
     static var startGradient = "GradientStartColor"
     static var endGradient = "GradientEndColor"

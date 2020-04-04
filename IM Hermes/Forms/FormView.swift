@@ -8,6 +8,13 @@
 
 import SwiftUI
 
+/*
+ * FormView
+ *
+ * Takes in the form type as an input and creates either a sign in or sign up page
+ */
+
+
 struct FormView: View {
     
     let formType:String

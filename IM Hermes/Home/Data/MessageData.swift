@@ -7,6 +7,11 @@
 //
 
 import Foundation
+/*
+ * MessageData
+ *
+ * Stores the individual information for creating a message bubble
+ */
 struct MessageData: Identifiable {
     var id = UUID()
     let sender:User

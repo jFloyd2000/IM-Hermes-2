@@ -7,7 +7,11 @@
 //
 
 import SwiftUI
-
+/*
+ * PasswordElement
+ *
+ * a simple textfeild formatted to look good on the screen and hides the users password as they type
+ */
 struct PasswordElement: View {
     
     let text:String

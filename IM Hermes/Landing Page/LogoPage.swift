@@ -7,7 +7,11 @@
 //
 
 import SwiftUI
-
+/*
+ * LogoPage
+ *
+ * this is the page that the user starts on which sends them to sign up/sign in pages
+ */
 struct LogoPage: View {
     var body: some View {
         NavigationView{

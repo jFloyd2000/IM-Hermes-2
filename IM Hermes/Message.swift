@@ -8,6 +8,12 @@
 
 import SwiftUI
 
+/*
+ * Message
+ *
+ * A simple message bubble with senders profile picture
+ */
+
 struct Message: View {
     let sender:User
     let bodyTxt:String

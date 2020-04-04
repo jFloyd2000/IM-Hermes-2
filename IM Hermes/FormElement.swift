@@ -7,7 +7,11 @@
 //
 
 import SwiftUI
-
+/*
+ * FormElement
+ *
+ * A simple textfeild formatted to look good on the screen
+ */
 struct FormElement: View {
     
     let text: String

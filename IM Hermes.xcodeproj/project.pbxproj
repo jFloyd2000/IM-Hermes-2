@@ -59,10 +59,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		968FE9AA2438314B00BF5515 /* Landing Page */ = {
+			isa = PBXGroup;
+			children = (
+				96C53467242FC0AA0015504B /* LogoPage.swift */,
+			);
+			path = "Landing Page";
+			sourceTree = "<group>";
+		};
+		968FE9AB2438351C00BF5515 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				960C651A243464B900A4303C /* User.swift */,
+				96BE3EB524350F4F00C9858E /* MessageData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		969445752431BB5400F27399 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				96C53481243115E50015504B /* Home.swift */,
+				968FE9AB2438351C00BF5515 /* Data */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -88,21 +106,19 @@
 			children = (
 				96C53463242FC0AA0015504B /* AppDelegate.swift */,
 				96C53465242FC0AA0015504B /* SceneDelegate.swift */,
-				96C53467242FC0AA0015504B /* LogoPage.swift */,
+				968FE9AA2438314B00BF5515 /* Landing Page */,
 				96C53483243115FE0015504B /* Forms */,
 				969445752431BB5400F27399 /* Home */,
+				9684A769243251B0009D4713 /* AddFriend.swift */,
 				96C53484243118060015504B /* ListItem.swift */,
 				96C5347D24300DB30015504B /* FormElement.swift */,
-				9684A769243251B0009D4713 /* AddFriend.swift */,
+				96BE3EB12435001D00C9858E /* Message.swift */,
+				96BE3EB32435078600C9858E /* MessageThred.swift */,
+				96C53479242FC47B0015504B /* Constants.swift */,
 				96C53469242FC0B00015504B /* Assets.xcassets */,
 				96C5346E242FC0B00015504B /* LaunchScreen.storyboard */,
 				96C53471242FC0B00015504B /* Info.plist */,
 				96C5346B242FC0B00015504B /* Preview Content */,
-				96C53479242FC47B0015504B /* Constants.swift */,
-				960C651A243464B900A4303C /* User.swift */,
-				96BE3EB12435001D00C9858E /* Message.swift */,
-				96BE3EB32435078600C9858E /* MessageThred.swift */,
-				96BE3EB524350F4F00C9858E /* MessageData.swift */,
 			);
 			path = "IM Hermes";
 			sourceTree = "<group>";

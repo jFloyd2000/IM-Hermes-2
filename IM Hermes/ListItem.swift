@@ -8,6 +8,12 @@
 
 import SwiftUI
 
+/*
+ * ListItem
+ *
+ * Displays a user and when the plus is selected will add user to a friend list
+ */
+
 struct ListItem: View {
     
     let img:UIImage

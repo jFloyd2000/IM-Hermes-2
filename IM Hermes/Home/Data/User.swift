@@ -8,6 +8,12 @@
 
 import Foundation
 import SwiftUI
+
+/*
+ * User
+ *
+ * stores users username and profile picture
+ */
 struct User {
     let profilePic:UIImage
     let username:String
